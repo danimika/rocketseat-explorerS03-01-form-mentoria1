@@ -1,0 +1,179 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&display=swap);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: clamp(40%, 2vw + 1%, 62.5%);
+
+  --purple: #535971;
+  --pink: #FF5374;
+  --white: #fff;
+}
+
+body::before{
+  content: '';
+  background: var(--purple);
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  height: 436px;
+  width: 100%;
+}
+
+body {
+  background: #EFEFEF;
+  font-family: 'Poppins', sans-serif;
+  color: var(--purple);
+}
+
+.page {  
+  font-size: 2rem;
+  width: 75rem;
+  margin: 14.4rem auto 14rem;
+  
+}
+
+header {
+  color: var(--white);
+  width: 417px;
+  margin-bottom: 4.6rem;
+}
+
+header h1 {
+  font-family: 'Staatliches', sans-serif;
+  font-size: 48px;
+  margin-bottom: 18px;
+}
+
+header p {  
+  font-size: 2rem;
+}
+
+form {
+  border-radius: 20px 20px 0px 0px;
+  background: var(--white);
+  min-height: 300px;
+  padding: 6.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 33px;
+}
+
+fieldset {
+  border: 0;
+}
+
+input {
+  height: 5.6rem;
+  border-radius: .8rem;
+  border: 1px solid #E6E6F0;
+  background: #FAFAFC;
+}
+
+.fieldset-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  gap:16px;
+}
+
+fieldset legend {
+  border-bottom: 1px solid #E6E6F0;
+  font-family: 'Staatliches';
+  padding-bottom: .8rem;  
+  margin-bottom: 1.6rem;
+}
+
+.input-wrapper label,
+.col-2 label,
+.col-3 label{
+  font-size: 1.4rem;
+  line-height: 2.4rem; 
+}
+
+.input-wrapper span,
+.col-2 span,
+.col-3 span{
+  color: #C1BCCC;
+  font-size: 1.2rem;
+  line-height: 2rem; 
+}
+
+.input-wrapper span:hover,
+.col-2 span:hover,
+.col-3 span:hover{
+  color: #77747e;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: .8rem;
+}
+
+.col-2 {
+  display: flex;
+  gap: 2.2rem;
+}
+
+
+.col-2 input {
+  width: 30rem;
+}
+
+.col-3 {
+  display: flex;
+}
+
+.col-3 > div:nth-child(1) {
+  width: 30rem;
+  margin-right: 3.2rem;
+}
+
+.col-3 > div:nth-child(2),
+.col-3 > div:nth-child(3) {
+  width: 14rem;
+}
+
+.col-3 > div:nth-child(2) {
+  margin-right: 1rem;
+}
+
+fieldset:nth-child(3) legend {
+  font-size: 2rem;
+  line-height: 3.4rem; 
+  padding-bottom: 0;
+  border: 0;
+  margin-bottom: .8rem;  
+}
+
+footer {
+  height: 16rem;
+  border-radius: 0px 0px 2rem 2rem;
+  background: var(--purple);
+  padding: 5.2rem 7.1rem;
+}
+
+footer .button {
+  border: 0;
+  border-radius: 2rem;
+
+  background: var(--pink);
+  height: 5.5rem;
+  width: 60.8rem;
+  padding: 1.5rem 4rem;
+
+  color: var(--white);
+  font-family: 'Staatliches';
+  font-size: 2rem;
+  line-height: 2.6rem;
+}
+
+footer .button:hover {
+  background: #b53a53;
+}
