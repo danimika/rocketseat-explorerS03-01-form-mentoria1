@@ -1,5 +1,5 @@
-# rocketseat-explorerS03-01-form-mentoria1
-Página criada como exercício desafio do stage 03-Formulários do curso Explorer da rocketseat
+<h1 align="center"> # Explorer - S03 - Mentoria </h1>
+<p>Exercício desafio do stage 03-Formulários do curso Explorer da rocketseat</p>
 
 ## 🚀 Tecnologias
 Esse projeto foi desenvolvido com as seguintes tecnologias:
@@ -8,6 +8,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Figma
 
 ## Conceitos
+
+Foram utilizados os seguintes conceitos e resources:
+
 - Pseudoclass before
 - display flex
 - input
@@ -16,6 +19,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## Preview
 <p align="center">
-  <img alt="projeto DevLinks" src=".github/img.png" width="100%">
+  <img alt="projeto DevLinks" src=".github/img.png">
 </p>
 
